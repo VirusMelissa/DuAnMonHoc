@@ -1,0 +1,126 @@
+{% extends 'base_cms.html' %} 
+{% load static %}
+{% block header %} 
+  {% include 'header_cms.html' %} 
+  {% include 'menu_cms.html' %} 
+{% endblock %} 
+{% block content %}
+{% load humanize %}
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">List Order</h4>
+                <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                <div class="heading-elements">
+                    <ul class="list-inline mb-0">
+                        <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+                        <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+                        <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+                        <li><a data-action="close"><i class="ft-x"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-content collapse show">
+                {% csrf_token %}
+                <div class="card-header">
+                    <div class="row" style="display: flex; justify-content: space-between; width: 100%; flex-direction: row; align-items: center;">
+                        <div class="form-group col-3 mb-2">
+                            <form action="" method="get" style="display: flex; align-items: center;">
+                                <input type="text" name="q" id="query" value="{{ query }}" placeholder="Search a name..." id="projectinput5" class="form-control">
+                                <input style="width: 100px; height: 30px; margin-left: 20px;" type="submit" value="Search">
+                            </form>
+                            
+                        </div>
+                        <!-- <a href="{% url 'createcategory' %}"><button type="button" class="btn btn-info btn-min-width mr-1 mb-1">Add</button></a> -->
+                    </div>
+                </div>
+                <div class="card-body">        
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>User</th>
+                                    <th>Phone</th>
+                                    <th>Note</th>
+                                    <th>Product</th>
+                                    <th>Total Price</th>
+                                    <th>Payment Type</th>
+                                    <th>Payment Status</th>
+                                    <th>Date</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for order in list %}
+                                <tr>
+                                    <td>{{ order.id }}</td>
+                                    <td>{{ order.username}}</td>
+                                    <td>{{ order.phone}}</td>
+                                    <td>{{ order.note}}</td>
+                                    <th>{{ order.getProductOrder }}</th>
+                                    <td>{{ order.total_price|floatformat:0|intcomma }} đ</td>
+                                    <th>{{ order.paymentType}}</th>
+                                    <th>{{ order.paymentStatus}}</th>
+                                    <th>{{ order.created|date:"d/m/Y"}}</th>
+                                    <td>
+                                      
+                                        <button type="button" data-cate-id="{{ product.id }}" class="btn btn-danger btn-min-width mr-1 mb-1 delete-user">Delete</button>
+                                    </td>
+                                    
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination justify-content-center">
+                            {% if list.has_previous %}
+                                <li class="page-item"><a class="page-link"  href="?page=1&q={{ query }}">First</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="?page={{ list.previous_page_number }}&q={{ query }}">Previous</a>
+                                </li>
+                            {% endif %}
+                            
+
+                            {% if list.has_next %}
+                                <li class="page-item"><a class="page-link" href="?page={{ list.next_page_number }}&q={{ query }}">Next</a></li>
+                                <li class="page-item"><a class="page-link" href="?page={{ list.paginator.num_pages }}&q={{ query }}">Last</a></li>
+                            {% endif %}
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block javascript %}
+<script>
+    $(document).ready(function() {
+        $('.delete-user').on('click', function(e) {
+            e.preventDefault();
+
+            var cateId = $(this).data('cate-id');
+
+            $.ajax({
+                url: "/cms/delete-category", // Replace with your actual URL
+                method: "POST",
+                data: {
+                    user_id: cateId,
+                    csrfmiddlewaretoken: "{{ csrf_token }}"
+                },
+                success: function(response) {
+                    alert('User deleted successfully');
+                    location.reload();
+                },
+                error: function(response) {
+                    alert('Failed to delete user');
+                }
+            });
+        });
+    });
+</script>
+{% endblock %}

@@ -1,0 +1,11 @@
+D:\Phuc\LT CSDL NC\QLHS\QLHS\bin\Debug\QLHS.exe.config
+D:\Phuc\LT CSDL NC\QLHS\QLHS\bin\Debug\QLHS.exe
+D:\Phuc\LT CSDL NC\QLHS\QLHS\bin\Debug\QLHS.pdb
+D:\Phuc\LT CSDL NC\QLHS\QLHS\obj\Debug\QLHS.csproj.AssemblyReference.cache
+D:\Phuc\LT CSDL NC\QLHS\QLHS\obj\Debug\QLHS.danhsach.resources
+D:\Phuc\LT CSDL NC\QLHS\QLHS\obj\Debug\QLHS.Form1.resources
+D:\Phuc\LT CSDL NC\QLHS\QLHS\obj\Debug\QLHS.Properties.Resources.resources
+D:\Phuc\LT CSDL NC\QLHS\QLHS\obj\Debug\QLHS.csproj.GenerateResource.cache
+D:\Phuc\LT CSDL NC\QLHS\QLHS\obj\Debug\QLHS.csproj.CoreCompileInputs.cache
+D:\Phuc\LT CSDL NC\QLHS\QLHS\obj\Debug\QLHS.exe
+D:\Phuc\LT CSDL NC\QLHS\QLHS\obj\Debug\QLHS.pdb

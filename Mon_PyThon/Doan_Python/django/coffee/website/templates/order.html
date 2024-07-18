@@ -1,0 +1,685 @@
+{% extends 'base_order.html' %} 
+{% load static %} 
+{% block content %} 
+{% load humanize %}
+<script>
+  window.shop = {
+    template: "collection",
+    moneyFormat: "{{amount}} đ",
+    shopCurrency: "VND",
+    CollectionSortBy: "manual",
+    terms: "",
+  };
+</script>
+<main>
+  <section class="tch-box tch-box--checkout tch-box--checkout-custom">
+    <div class="container-lg container-fluid custom-checkout">
+      <div data-v-0259c1b8="" class="row justify-content-center">
+        <div data-v-0259c1b8="" class="col-12 col-lg-10">
+          <div data-v-0259c1b8="" class="tch-checkout-header">
+            <h1
+              data-v-0259c1b8=""
+              class="text-center tch-checkout-title tch-checkout-title-custom mb-0"
+            >
+              {% csrf_token %}
+              <span data-v-0259c1b8="" class="icon mr-3"
+                ><i
+                  data-v-0259c1b8=""
+                  aria-hidden="true"
+                  class="fa fa-file"
+                ></i></span
+              ><span data-v-0259c1b8="" class="text">Xác nhận đơn hàng</span>
+            </h1>
+          </div>
+          <div data-v-0259c1b8="" class="ml-lg--50 d-block">
+            <div
+              data-v-0259c1b8=""
+              class="tch-checkout-box tch-checkout-box--delivery tch-checkout-border float-lg-left"
+            >
+              <div
+                data-v-0259c1b8=""
+                class="tch-checkout-custom-mobile d-flex justify-content-between"
+              >
+                <h4 data-v-0259c1b8="" class="tch-checkout-box__title">
+                  Giao hàng
+                </h4>
+                <!-- <p
+                  data-v-0259c1b8=""
+                  data-toggle="modal"
+                  data-target="#search-modal"
+                  class="tch-checkout-box__btn-outline"
+                >
+                  Đổi phương thức
+                </p> -->
+              </div>
+              <div
+                data-v-0259c1b8=""
+                class="d-flex flex-row align-items-start tch-delivery-card tch-delivery-card--border"
+              >
+                <div data-v-0259c1b8="" class="tch-delivery-card__image">
+                  <img
+                    data-v-0259c1b8=""
+                    width="40px"
+                    src="https://minio.thecoffeehouse.com/images/tch-web-order/Delivery2.png"
+                    alt=""
+                  />
+                </div>
+                <div
+                  data-v-0259c1b8=""
+                  data-toggle="modal"
+                  data-target="#abc"
+                  class="d-flex justify-content-between align-items-start tch-delivery-card__content"
+                >
+                  <div data-v-0259c1b8="">
+                    <h5
+                      data-v-0259c1b8=""
+                      class="tch-delivery-card__title mb-0"
+                    >
+                      222 Nguyễn Thị Thập
+                    </h5>
+                    <p
+                      data-v-0259c1b8=""
+                      class="tch-delivery-card__description mb-0"
+                    >
+                      222 Nguyễn Thị Thập, Bình Thuận, Quận 7, Thành phố Hồ Chí
+                      Minh, Việt Nam
+                    </p>
+                  </div>
+                  <span data-v-0259c1b8="" class="icon mt-2"
+                    ><i
+                      data-v-0259c1b8=""
+                      aria-hidden="true"
+                      class="fa fa-chevron-right"
+                    ></i
+                  ></span>
+                </div>
+              </div>
+              <div
+                data-v-0259c1b8=""
+                class="d-flex flex-row align-items-start tch-delivery-card"
+              >
+                <div data-v-0259c1b8="" class="tch-delivery-card__image"></div>
+                <div
+                  data-v-0259c1b8=""
+                  data-toggle="modal"
+                  data-target="#delivery-time"
+                  class="d-flex justify-content-between align-items-start tch-delivery-card__content"
+                >
+                  <div data-v-0259c1b8="">
+                    <h5
+                      data-v-0259c1b8=""
+                      class="tch-delivery-card__title mb-0"
+                    >
+                      Nhận hàng trong ngày 15-30 phút
+                    </h5>
+                    <p
+                      data-v-0259c1b8=""
+                      class="tch-delivery-card__description mb-0"
+                    >
+                      Vào lúc: Càng sớm càng tốt
+                    </p>
+                  </div>
+                  <span data-v-0259c1b8="" class="icon mt-2"
+                    ><i
+                      data-v-0259c1b8=""
+                      aria-hidden="true"
+                      class="fa fa-chevron-right"
+                    ></i
+                  ></span>
+                </div>
+              </div>
+              <div data-v-0259c1b8="" class="form-group">
+                <input
+                  data-v-0259c1b8=""
+                  type="text"
+                  id="name"
+                  autocomplete="off"
+                  placeholder="Tên người nhận"
+                  class="form-control tch-delivery__input"
+                  name="username"
+                  required
+                />
+                <div data-v-0259c1b8="" class="err err-name">
+                  Vui lòng nhập tên người nhận
+                </div>
+              </div>
+              <div data-v-0259c1b8="" class="form-group">
+                <input
+                  data-v-0259c1b8=""
+                  type="text"
+                  id="phone"
+                  autocomplete="off"
+                  placeholder="Số điện thoại"
+                  class="form-control tch-delivery__input"
+                  name="phone_number"
+                  required
+                />
+                <div data-v-0259c1b8="" class="err err-phone">
+                  Vui lòng nhập số điện thoại người nhận
+                </div>
+              </div>
+              <!---->
+              <div data-v-0259c1b8="" class="form-group mb-0">
+                <input
+                  data-v-0259c1b8=""
+                  type="text"
+                  id="note"
+                  autocomplete="off"
+                  placeholder="Thêm hướng dẫn giao hàng"
+                  class="form-control tch-delivery__input"
+                  name="note"
+                  required
+                />
+              </div>
+            </div>
+            <div
+              data-v-0259c1b8=""
+              class="d-none tch-checkout-box tch-checkout-box--lg-shadowbox d-lg-block float-lg-right pb-0 pt-0"
+            >
+              <div data-v-0259c1b8="" class="ptl-20">
+                <div
+                  data-v-0259c1b8=""
+                  class="tch-checkout-box tch-checkout-box--list-ordered tch-checkout-border w-100"
+                >
+                  <div
+                    data-v-0259c1b8=""
+                    class="d-flex justify-content-between"
+                  >
+                    <h4 data-v-0259c1b8="" class="tch-checkout-box__title mb-0">
+                      Các món đã chọn
+                    </h4>
+                    <a
+                      data-v-0259c1b8=""
+                      href="/collections?category=all"
+                      style="text-decoration: none; color: black"
+                      ><p
+                        data-v-0259c1b8=""
+                        class="tch-checkout-box__btn-outline"
+                      >
+                        Thêm món
+                      </p></a
+                    >
+                  </div>
+                  {% for item_id, item_data in cart.items %}
+
+                  <div
+                    data-v-0259c1b8=""
+                    data-toggle="modal"
+                    data-target="#cardModal"
+                    class="tch-order-card d-flex align-items-center justify-content-between"
+                  >
+                    <div data-v-0259c1b8="" class="tch-order-card__left d-flex">
+                      <span
+                        data-v-0259c1b8=""
+                        class="tch-order-card__icon d-flex align-items-center"
+                        ><i
+                          data-v-0259c1b8=""
+                          aria-hidden="true"
+                          class="fa fa-pen"
+                        ></i
+                      ></span>
+
+                      <div data-v-0259c1b8="" class="tch-order-card__content">
+                        <h5
+                          data-v-0259c1b8=""
+                          class="tch-order-card__title mb-0"
+                          data-item-id="{{item_id}}"
+                        >
+                          {{item_data.quantity}} x {{item_data.name}}
+                        </h5>
+                        <p
+                          data-v-0259c1b8=""
+                          class="tch-order-card__description mb-0"
+                        >
+                          {{ item_data.size }}
+                        </p>
+                        <!---->
+                        <p data-v-0259c1b8="" class="tch-order-delete-item">
+                          Xóa
+                        </p>
+                      </div>
+                    </div>
+                    <div data-v-0259c1b8="" class="tch-order-card__right">
+                      <p data-v-0259c1b8="" class="tch-order-card__price mb-0">
+                        <!-- {{item_data.price |floatformat:0}} đ -->
+                        {{ item_data.price|floatformat:0|intcomma }} đ
+                      </p>
+                    </div>
+                  </div>
+                  {% endfor %}
+                </div>
+                <div
+                  data-v-0259c1b8=""
+                  class="tch-checkout-box tch-checkout-box--list-total tch-checkout-border w-100"
+                >
+                  <div data-v-0259c1b8="" class="mb--12">
+                    <h4 data-v-0259c1b8="" class="tch-checkout-box__title">
+                      Tổng cộng
+                    </h4>
+                  </div>
+                  <div
+                    data-v-0259c1b8=""
+                    data-toggle="modal"
+                    data-target="#delivery-time"
+                    class="tch-order-card tch-order-card--border d-flex align-items-center justify-content-between"
+                  >
+                    <div data-v-0259c1b8="" class="tch-order-card__left d-flex">
+                      <p data-v-0259c1b8="" class="tch-order-card__text mb-0">
+                        Thành tiền
+                      </p>
+                    </div>
+                    <div data-v-0259c1b8="" class="tch-order-card__right">
+                      <p data-v-0259c1b8="" class="tch-order-card__price mb-0">
+                        {{ total|floatformat:0|intcomma }} đ
+                      </p>
+                    </div>
+                  </div>
+                  <!-- <div
+                    data-v-0259c1b8=""
+                    class="tch-order-card tch-order-card--border d-flex align-items-center justify-content-between"
+                    style="margin-top: -25px"
+                  >
+                    <div data-v-0259c1b8="" class="tch-order-card__left d-flex">
+                      <p data-v-0259c1b8="" class="tch-order-card__text mb-0">
+                        Bạn có mã Freeship trong mục Ưu đãi
+                      </p>
+                    </div>
+                    <div
+                      data-v-0259c1b8=""
+                      class="tch-order-card__right price-discount"
+                    >
+                      <p data-v-0259c1b8="" class="tch-order-card__price mb-0">
+                        0đ
+                      </p>
+                    </div>
+                  </div> -->
+                  <div
+                    data-v-0259c1b8=""
+                    data-toggle="modal"
+                    data-target="#sale-modal"
+                    class="tch-order-card d-flex align-items-center justify-content-between cursor-pointer"
+                  >
+                    <div
+                      data-v-0259c1b8=""
+                      class="tch-order-card__left tch-order-tch-order-card__left-custom-custom"
+                      style="flex: 1 1 0%"
+                    >
+                      <p
+                        data-v-0259c1b8=""
+                        class="tch-order-card__text orange mb-0"
+                      >
+                        Khuyến mãi
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                data-v-0259c1b8=""
+                class="tch-checkout-box tch-checkout-box--list-submited d-flex justify-content-between w-100 position-static"
+              >
+                <div data-v-0259c1b8="">
+                  <p
+                    data-v-0259c1b8=""
+                    class="tch-order-card__text text-white mb-0"
+                  >
+                    Thành tiền
+                  </p>
+                  <p
+                    data-v-0259c1b8=""
+                    class="tch-order-card__text text-white f-600 mb-0"
+                  >
+                    {{ total|floatformat:0|intcomma }} đ
+                  </p>
+                </div>
+                <button
+                  data-v-0259c1b8=""
+                  type="button"
+                  class="btn btn--white text-orange btn--radius-100 orderCart"
+                >
+                  Đặt hàng
+                </button>
+              </div>
+            </div>
+            <div
+              data-v-0259c1b8=""
+              class="tch-checkout-box tch-checkout-box--list-ordered tch-checkout-border d-lg-none"
+            >
+              <div data-v-0259c1b8="" class="d-flex justify-content-between">
+                <h4 data-v-0259c1b8="" class="tch-checkout-box__title mb-0">
+                  Các món đã chọn
+                </h4>
+                <a
+                  data-v-0259c1b8=""
+                  href="/product-listing"
+                  style="text-decoration: none; color: black"
+                  ><p data-v-0259c1b8="" class="tch-checkout-box__btn-outline">
+                    Thêm món
+                  </p></a
+                >
+              </div>
+              <div
+                data-v-0259c1b8=""
+                data-toggle="modal"
+                data-target="#cardModal"
+                class="tch-order-card tch-order-card--border d-flex align-items-center justify-content-between"
+              >
+                <div data-v-0259c1b8="" class="tch-order-card__left d-flex">
+                  <span
+                    data-v-0259c1b8=""
+                    class="tch-order-card__icon d-flex align-items-center"
+                    ><i
+                      data-v-0259c1b8=""
+                      aria-hidden="true"
+                      class="fa fa-pen"
+                    ></i
+                  ></span>
+                  <div data-v-0259c1b8="" class="tch-order-card__content">
+                    <h5 data-v-0259c1b8="" class="tch-order-card__title mb-0">
+                      1 x CloudFee Hà Nội
+                    </h5>
+                    <p
+                      data-v-0259c1b8=""
+                      class="tch-order-card__description mb-0"
+                    >
+                      1 x Vừa
+                    </p>
+                    <!---->
+                    <p data-v-0259c1b8="" class="tch-order-delete-item">Xóa</p>
+                  </div>
+                </div>
+                <div data-v-0259c1b8="" class="tch-order-card__right">
+                  <p data-v-0259c1b8="" class="tch-order-card__price mb-0">
+                    55.000đ
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              data-v-0259c1b8=""
+              class="tch-checkout-box tch-checkout-box--list-total tch-checkout-border d-lg-none"
+            >
+              <div data-v-0259c1b8="" class="mb--12">
+                <h4 data-v-0259c1b8="" class="tch-checkout-box__title">
+                  Tổng cộng
+                </h4>
+              </div>
+              <div data-v-0259c1b8="" class="mt-lg--30">
+                <div
+                  data-v-0259c1b8=""
+                  data-toggle="modal"
+                  data-target="#delivery-time"
+                  class="tch-order-card tch-order-card--border d-flex align-items-center justify-content-between"
+                >
+                  <div data-v-0259c1b8="" class="tch-order-card__left d-flex">
+                    <p data-v-0259c1b8="" class="tch-order-card__text mb-0">
+                      Thành tiền
+                    </p>
+                  </div>
+                  <div data-v-0259c1b8="" class="tch-order-card__right">
+                    <p data-v-0259c1b8="" class="tch-order-card__price mb-0">
+                      55.000đ
+                    </p>
+                  </div>
+                </div>
+                <div
+                  data-v-0259c1b8=""
+                  class="tch-order-card d-flex align-items-center justify-content-between"
+                >
+                  <div data-v-0259c1b8="" class="tch-order-card__left d-flex">
+                    <p data-v-0259c1b8="" class="tch-order-card__text mb-0">
+                      Phí giao hàng
+                    </p>
+                  </div>
+                  <div data-v-0259c1b8="" class="tch-order-card__right">
+                    <p data-v-0259c1b8="" class="tch-order-card__price mb-0">
+                      18.000đ
+                    </p>
+                  </div>
+                </div>
+                <div
+                  data-v-0259c1b8=""
+                  class="tch-order-card tch-order-card--border d-flex align-items-center justify-content-between"
+                  style="margin-top: -25px"
+                >
+                  <div data-v-0259c1b8="" class="tch-order-card__left d-flex">
+                    <p data-v-0259c1b8="" class="tch-order-card__text mb-0">
+                      Bạn có mã Freeship trong mục Ưu đãi
+                    </p>
+                  </div>
+                  <div
+                    data-v-0259c1b8=""
+                    class="tch-order-card__right price-discount"
+                  >
+                    <p data-v-0259c1b8="" class="tch-order-card__price mb-0">
+                      0đ
+                    </p>
+                  </div>
+                </div>
+                <div
+                  data-v-0259c1b8=""
+                  data-toggle="modal"
+                  data-target="#sale-modal"
+                  class="tch-order-card d-flex align-items-center justify-content-between cursor-pointer"
+                >
+                  <div
+                    data-v-0259c1b8=""
+                    class="tch-order-card__left tch-order-card__left-custom"
+                  >
+                    <p
+                      data-v-0259c1b8=""
+                      class="tch-order-card__text orange mb-0"
+                    >
+                      Khuyến mãi
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              data-v-0259c1b8=""
+              class="tch-checkout-box tch-checkout-box--list-submited d-flex justify-content-between d-lg-none"
+            >
+              <div data-v-0259c1b8="">
+                <p
+                  data-v-0259c1b8=""
+                  class="tch-order-card__text text-white mb-0"
+                >
+                  Thành tiền
+                </p>
+                <p
+                  data-v-0259c1b8=""
+                  class="tch-order-card__text text-white f-600 mb-0"
+                >
+                  73.000đ
+                </p>
+              </div>
+              <button
+                data-v-0259c1b8=""
+                type="button"
+                class="btn btn--white text-orange btn--radius-100 orderCart"
+              >
+                Đặt hàng
+              </button>
+            </div>
+            <div
+              data-v-0259c1b8=""
+              class="tch-checkout-box tch-checkout-box--list-method tch-checkout-border float-lg-left"
+            >
+              <div data-v-0259c1b8="" class="mb--12">
+                <h4
+                  data-v-0259c1b8=""
+                  class="tch-checkout-box__title mb-0 mb-0"
+                >
+                  Phương thức thanh toán
+                </h4>
+              </div>
+              <ul data-v-0259c1b8="" class="tch-list-payment-method mb-0">
+                <li data-v-0259c1b8="" class="tch-payment-method-item">
+                  <div
+                    data-v-0259c1b8=""
+                    class="custom-control custom-radio mb-0"
+                  >
+                    <input
+                      data-v-0259c1b8=""
+                      type="radio"
+                      name="payment-method"
+                      id="COD"
+                      class="custom-control-input"
+                      value="COD"
+                      checked
+                    />
+                    <label
+                      data-v-0259c1b8=""
+                      for="COD"
+                      class="custom-control-label tch-custom-radio"
+                      style="padding-left: 6px"
+                      ><span data-v-0259c1b8="" class="icon ml-3 mr-2"
+                        ><img
+                          data-v-0259c1b8=""
+                          src="https://minio.thecoffeehouse.com/image/tchmobileapp/1000_photo_2021-04-06_11-17-08.jpg"
+                          alt="" /></span
+                      ><span data-v-0259c1b8="" class="text">Tiền mặt</span>
+                      <!----></label
+                    >
+                  </div>
+                </li>
+                <li data-v-0259c1b8="" class="tch-payment-method-item">
+                  <div
+                    data-v-0259c1b8=""
+                    class="custom-control custom-radio mb-0"
+                  >
+                    <input
+                      data-v-0259c1b8=""
+                      type="radio"
+                      name="payment-method"
+                      id="MoMo"
+                      class="custom-control-input"
+                      value="MOMO"
+                    />
+                    <label
+                      data-v-0259c1b8=""
+                      for="MoMo"
+                      class="custom-control-label tch-custom-radio"
+                      style="padding-left: 6px"
+                      ><span data-v-0259c1b8="" class="icon ml-3 mr-2"
+                        ><img
+                          data-v-0259c1b8=""
+                          src="https://minio.thecoffeehouse.com/image/tchmobileapp/386_ic_momo@3x.png"
+                          alt="" /></span
+                      ><span data-v-0259c1b8="" class="text">MoMo</span>
+                      <!----></label
+                    >
+                  </div>
+                </li>
+              </ul>
+              <div data-v-0259c1b8="" class="policy">
+                <label data-v-0259c1b8="" class="checkbox-button"
+                  ><input
+                    data-v-0259c1b8=""
+                    checked="checked"
+                    disabled="disabled"
+                    type="checkbox"
+                    id="choice1-1"
+                    name="choice1"
+                    class="checkbox-button__input"
+                  />
+                  <span
+                    data-v-0259c1b8=""
+                    class="checkbox-button__control"
+                  ></span>
+                  <span data-v-0259c1b8="" class="checkbox-button__label"
+                    >Đồng ý với các
+                    <a data-v-0259c1b8="" href="/policy" class="policy-link"
+                      >điều khoản và điều kiện</a
+                    >
+                    mua hàng của The Coffee House</span
+                  ></label
+                >
+              </div>
+            </div>
+            <div
+              data-v-0259c1b8=""
+              class="tch-checkout-box tch-checkout-box--remove-card float-lg-right text-center"
+            >
+              <a
+                data-v-0259c1b8=""
+                class="tch-checkout-box__text text-center mb-0 clear_cart"
+              >
+                <span data-v-0259c1b8="" class="icon mr-2"
+                  ><i
+                    data-v-0259c1b8=""
+                    aria-hidden="true"
+                    class="fa fa-trash"
+                  ></i></span
+                ><span data-v-0259c1b8="">Xóa đơn hàng</span>
+              </a>
+            </div>
+            <div data-v-0259c1b8="" class="d-none d-lg-block clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+{% endblock %} {% block javascript %}
+<script>
+  $(document).ready(function () {
+    $(".orderCard").on("click", function (e) {
+      e.preventDefault();
+      $.ajax({
+        url: "/clear_cart", // Replace with your actual URL
+        method: "POST",
+        data: {
+          csrfmiddlewaretoken: "{{ csrf_token }}",
+        },
+        success: function (response) {
+          location.reload();
+        },
+        error: function (response) {
+          alert("Failed to delete user");
+        },
+      });
+    });
+
+    $(".orderCart").on("click", function (e) {
+      e.preventDefault();
+      if ($("#name").val() == "") {
+        return alert("Vui lòng nhâp tên người nhận");
+      }
+      if ($("#phone").val() == "") {
+        return alert("Vui lòng nhâp số điện thoại");
+      }
+      const payment = $('input[name="payment-method"]:checked').val();
+      console.log(payment, 'payment')
+      $.ajax({
+        url: "cms/order-cart", // Replace with your actual URL
+        method: "POST",
+        data: {
+          name: $("#name").val(),
+          phone_number: $("#phone").val(),
+          note: $("#note").val(),
+          total: "{{ total|floatformat:0 }}",
+          paymentType: payment,
+          csrfmiddlewaretoken: "{{ csrf_token }}",
+        },
+        success: function (response) {
+          console.log(response, 'response')
+          if (payment === "MOMO") {
+            // alert(response.message);
+            location.href = response.link;
+            return;
+          }
+          alert(response.message);
+          location.href = '/';
+         
+        },
+        error: function (response) {
+          alert("Failed to delete user");
+        },
+      });
+    });
+  });
+</script>
+{% endblock %}

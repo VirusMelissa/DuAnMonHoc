@@ -1,0 +1,148 @@
+<!-- edit_nhanvien.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chỉnh Sửa Thông Tin Nhân Viên</title>
+    <style>
+        /* Add your CSS styling here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            border: 2px double #dddddd;
+            padding: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 35px;
+            font-weight: bold;
+            color: red;
+        }
+
+        .input-form {
+            margin-bottom: 20px;
+        }
+
+        .label-spacing {
+            margin-left: 20px; /* Khoảng cách giữa label và input */
+        }
+
+        .input-form label {
+            display: inline-block;
+            width: 120px;
+        }
+
+        .input-form input[type="text"],
+        .input-form select {
+            width: 200px;
+            padding: 5px;
+        }
+
+        .input-form button {
+            padding: 8px 8px;
+            font-size: 15px;
+            font-weight: bold;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .input-form button a {
+            color: white;
+            padding: 8px 8px;
+            font-size: 15px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .input-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <script>
+          function toggleInputFields() {
+            var loaiNVSelect = document.getElementById("LoaiNV");
+            var soNgayLamInput = document.getElementById("SoNgayLam");
+            var soSanPhamBanInput = document.getElementById("SoSanPhamBan");
+
+            if (loaiNVSelect.value === "1") {
+                soSanPhamBanInput.disabled = true;
+                soNgayLamInput.disabled = false;
+                soSanPhamBanInput.value = "0"
+            } else if (loaiNVSelect.value === "2") {
+                soSanPhamBanInput.disabled = false;
+                soNgayLamInput.disabled = true;
+                soNgayLamInput.value = "0"
+            } else {
+                soSanPhamBanInput.disabled = false;
+                soNgayLamInput.disabled = false;
+                soSanPhamBanInput.value = "0"
+                soNgayLamInput.value = "0"
+            }
+          }
+        </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Chỉnh Sửa Thông Tin Nhân Viên</h2>
+
+        <div class="input-form">
+            <form method="POST" action="{% url 'update' pk=nhanvien.pk %}">
+                {% csrf_token %}
+                <label for="MaNV">Mã Nhân Viên:</label>
+                <input type="text" name="MaNV" id="MaNV" value="{{ nhanvien.MaNV }}" readonly required>
+                <br><br>
+
+                <label for="Hoten">Tên Nhân Viên:</label>
+                <input type="text" name="Hoten" id="Hoten" value="{{ nhanvien.Hoten }}" required>
+                <br><br>
+
+                <label for="Luongcoban">Lương Cơ Bản:</label>
+                <input type="number" name="Luongcoban" id="Luongcoban" value="{{ nhanvien.Luongcoban }}" style="width: 200px; padding: 5px;" required>
+                <br><br>
+
+                <label for="LoaiNV">Loại Nhân Viên:</label>
+                <select name="LoaiNV" id="LoaiNV" required onchange="toggleInputFields()">
+                    {% for LoaiNV in dsLoaiNV %}
+                        {% if nhanvien.LoaiNV_id and LoaiNV.LoaiNV_id == nhanvien.LoaiNV_id.LoaiNV_id %}
+                            <option value="{{ LoaiNV.LoaiNV_id }}" selected>{{ LoaiNV.Name }}</option>
+                        {% else %}
+                            <option value="{{ LoaiNV.LoaiNV_id }}">{{ LoaiNV.Name }}</option>
+                        {% endif %}
+                    {% endfor %}
+                </select>
+                <br><br>
+
+                <label for="SoNgayLam">Số Ngày Làm:</label>
+                <input type="number" name="SoNgayLam" id="SoNgayLam" value="{{ nhanvien.SoNgayLam }}" style="width: 200px; padding: 5px;" required
+                       {% if nhanvien.LoaiNV_id and nhanvien.LoaiNV_id.LoaiNV_id == 2 %}
+                           disabled
+                       {% endif %}
+                >
+
+                <span class="label-spacing">
+                    <label for="SoSanPhamBan">Số Sản Phẩm:</label>
+                    <input type="number" name="SoSanPhamBan" id="SoSanPhamBan" value="{{ nhanvien.SoSanPham }}" style="width: 200px; padding: 5px;" required
+                           {% if nhanvien.LoaiNV_id and nhanvien.LoaiNV_id.LoaiNV_id == 1 %}
+                               disabled
+                           {% endif %}
+                    >
+                </span>
+                <br><br>
+
+                <button type="submit">Cập Nhật</button>
+                <button><a href="{% url 'List_nhanvien' %}">Hủy</a></button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

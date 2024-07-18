@@ -1,0 +1,172 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+{% load humanize %}
+     <script>
+         window.shop = {
+            template: "collection",
+            moneyFormat: "{{amount}} đ",
+            shopCurrency: "VND",
+            CollectionSortBy: "manual",
+            terms: ""
+        };
+    </script>
+    <main>
+        <div id="collection">
+            <div class="collection_menu_wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 stikySidebar">
+                            <aside class="sidebar_menu">
+                                <ul class="hidden-sm hidden-xs">
+                                    <li>
+                                        <a {% if category == 'all' %} class="active" {% endif %} href="/collections?category=all"
+                                            data-url="/collections?category=all">
+                                            Tất Cả
+                                        </a>
+                                    </li>
+                                    {% for cate in categories12 %}
+                                        <li>
+                                            <a {% if cate.category.id|stringformat:"s" == category or cate.category.id|stringformat:"s" == check_parent %} class="active {{cate.category.id}} {{check_parent}}" {% endif %}  href="/collections?category={{cate.category.id}}" 
+                                                data-url="/collections?category={{cate.category.id}}">
+                                                {{ cate.category.name }}
+                                            </a>
+                                            {% if cate.children %}
+                                                <ul class="sidebar_menu_lv2" {% if cate.category.id|stringformat:"s" == category or cate.category.id|stringformat:"s" == check_parent %} style="display: block" {% else %}  style="display: none" {% endif %} >
+                                                    {% for child_category in cate.children %}
+                                                        <li>
+                                                            <a {% if child_category.category.id|stringformat:"s" == category  %} class="active" {% endif %} data-url="/collections/ca-phe-highlight"
+                                                    href="/collections?category={{child_category.category.id}}">{{child_category.category.name }}</a>
+                                                            {% if child_category.children %}
+                                                                <ul>
+                                                                    {% for grandchild_category in child_category.children %}
+                                                                        <li>{{ grandchild_category.category.name }}</li>
+                                                                    {% endfor %}
+                                                                </ul>
+                                                            {% endif %}
+                                                        </li>
+                                                    {% endfor %}
+                                                </ul>
+                                            {% endif %}
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                     
+                                <select class="hidden-md hidden-lg">
+                                    <option value="null">Tất cả</option>
+                                    <option value="#104389792">Tất Cả</option>
+                                    <option value="#103658000">Cà Phê</option>
+                                    <option value="#103657998">Trà</option>
+                                    <option value="#106067552">Cloud</option>
+                                    <option value="#104162785">Hi-Tea Healthy</option>
+                                    <option value="#106067537">Trà Xanh - Sô cô la</option>
+                                    <option value="#105857414">Thức uống đá xay</option>
+                                    <option value="#103705289">Bánh & Snack</option>
+                                    <option value="#103759346">Thưởng Thức Tại Nhà</option>
+                                </select>
+                            </aside>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 border_right_before">
+                            {% for category_name, category_data in products.items %}
+                            <div class="cha block_menu_item loaded" id="103705290" data-parent-target="103705289">
+                                <h3 class="block_menu_item_title">
+                                    <span class="line_after_heading section_heading">{{category_name}}</span>
+                                </h3>
+
+                                <div class="flex_wrap display_flex menu_lists menu_list_collection">
+                                    {% for prod in category_data.products %}
+                                    <div class="menu_item">
+                                        <div class="menu_item_image">
+                                            <a  
+                                                href="{% url 'product' prod.id %}"
+                                                title="{{prod.name}}"
+                                            >
+                                            <img class="lazyload"
+                                                    src="{{ prod.image }}"
+                                                    data-src="{{ prod.image }}"
+                                                    alt="banh mi gay ga kim quat" /></a>
+                                            <ul class="labels">
+                                            </ul>
+
+                                        </div>
+                                        <div class="menu_item_info">
+                                            <h3><a href="{% url 'product' prod.id %}"
+                                                title="{{prod.name}}">{{prod.name}}</a></h3>
+                                            <div class="price_product_item">{{prod.price|floatformat:0|intcomma}} đ</div>
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            
+            document.addEventListener('DOMContentLoaded', function () {
+
+                //window.linkActive = +;
+                //window.linkActive = 1;
+
+                function resize() {
+                    if ($(window).width() > 991) {
+                        $('#video_collection .video_text').css('flex', '0 0 ' + ($('.container:eq(0)').width() * (1 - 0.5625) - 24 + 15) + 'px')
+                        if ($('#video_collection .video_wrap').parent().is('.container'))
+                            $('#video_collection .video_wrap, #video_collection .video_text').unwrap();
+                    } else {
+                        $('#video_collection .video_text').removeAttr('style');
+                        $('#video_collection .video_wrap, #video_collection .video_text').wrapAll('<div class="container"></div>');
+                    }
+                }
+
+                $(window).resize(function () {
+                    clearTimeout(window.resizedFinished);
+                    window.resizedFinished = setTimeout(function () {
+                        resize();
+                    }, 250);
+                });
+                resize();
+
+
+                if ($('#slide_collection .item').length > 1) {
+                    $('#slide_collection').addClass('owl-carousel').owlCarousel({
+                        nav: true,
+                        dots: true,
+                        loop: true,
+                        items: 1,
+                        mouseDrag: true,
+                        autoplayHoverPause: true,
+                        autoplay: true,
+                        navText: ['<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M13.0466 18.3333H33.3333V21.6666H13.0466L21.9866 30.6066L19.63 32.9633L6.66663 20L19.63 7.03662L21.9866 9.39329L13.0466 18.3333Z" fill="white"/> </svg>', '<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M26.9534 18.3333L18.0134 9.39329L20.3701 7.03662L33.3334 20L20.3701 32.9633L18.0134 30.6066L26.9534 21.6666H6.66675V18.3333H26.9534Z" fill="white"/> </svg>'],
+                        autoplayTimeout: "" ? "" * 1000 : 7000
+                    })
+                }
+            });
+
+
+            // load Products
+            document.addEventListener('lazybeforeunveil', function (e) {
+                if ($(e.target).attr('data-is-lazy') === 'true') {
+                    var $lzyWrap = $(e.target);
+                    var totalPages = $lzyWrap.data('total-pages');
+                    var requests = [];
+                    for (var i = 1; i <= totalPages; i++) {
+                        requests.push(
+                            $.get($lzyWrap.attr('data-url') + '?view=lazy&page=' + i)
+                        );
+
+                    }
+                    Promise.all(requests).then((responses) => {
+                        $lzyWrap.find('.menu_list_collection').html(responses.join('')).end().addClass('loaded');
+                    });
+                }
+            });
+
+        </script>
+    </main>
+{% endblock %}

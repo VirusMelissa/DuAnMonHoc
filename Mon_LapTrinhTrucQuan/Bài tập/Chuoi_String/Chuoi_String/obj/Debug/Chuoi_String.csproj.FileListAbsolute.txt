@@ -1,0 +1,10 @@
+D:\LTTQ\Chuoi_String\Chuoi_String\bin\Debug\Chuoi_String.exe.config
+D:\LTTQ\Chuoi_String\Chuoi_String\bin\Debug\Chuoi_String.exe
+D:\LTTQ\Chuoi_String\Chuoi_String\bin\Debug\Chuoi_String.pdb
+D:\LTTQ\Chuoi_String\Chuoi_String\obj\Debug\Chuoi_String.csproj.AssemblyReference.cache
+D:\LTTQ\Chuoi_String\Chuoi_String\obj\Debug\Chuoi_String.Form1.resources
+D:\LTTQ\Chuoi_String\Chuoi_String\obj\Debug\Chuoi_String.Properties.Resources.resources
+D:\LTTQ\Chuoi_String\Chuoi_String\obj\Debug\Chuoi_String.csproj.GenerateResource.cache
+D:\LTTQ\Chuoi_String\Chuoi_String\obj\Debug\Chuoi_String.csproj.CoreCompileInputs.cache
+D:\LTTQ\Chuoi_String\Chuoi_String\obj\Debug\Chuoi_String.exe
+D:\LTTQ\Chuoi_String\Chuoi_String\obj\Debug\Chuoi_String.pdb

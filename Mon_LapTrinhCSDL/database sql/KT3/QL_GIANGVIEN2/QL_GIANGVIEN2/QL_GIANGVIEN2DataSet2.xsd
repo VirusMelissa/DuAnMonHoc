@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QL_GIANGVIEN2DataSet2" targetNamespace="http://tempuri.org/QL_GIANGVIEN2DataSet2.xsd" xmlns:mstns="http://tempuri.org/QL_GIANGVIEN2DataSet2.xsd" xmlns="http://tempuri.org/QL_GIANGVIEN2DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QL_GIANGVIEN2ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QL_GIANGVIEN2ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QL_GIANGVIEN2.Properties.Settings.GlobalReference.Default.QL_GIANGVIEN2ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ABCTableAdapter" GeneratorDataComponentClassName="ABCTableAdapter" Name="ABC" UserDataComponentName="ABCTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QL_GIANGVIEN2ConnectionString (Settings)" DbObjectName="QL_GIANGVIEN2.dbo.ABC" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MAGV, HOTEN, MAMH, TENMH, SOTIET, SOTIETDADAY FROM dbo.ABC</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MAGV" DataSetColumn="MAGV" />
+              <Mapping SourceColumn="HOTEN" DataSetColumn="HOTEN" />
+              <Mapping SourceColumn="MAMH" DataSetColumn="MAMH" />
+              <Mapping SourceColumn="TENMH" DataSetColumn="TENMH" />
+              <Mapping SourceColumn="SOTIET" DataSetColumn="SOTIET" />
+              <Mapping SourceColumn="SOTIETDADAY" DataSetColumn="SOTIETDADAY" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QL_GIANGVIEN2DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="QL_GIANGVIEN2DataSet2" msprop:Generator_UserDSName="QL_GIANGVIEN2DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ABC" msprop:Generator_TableClassName="ABCDataTable" msprop:Generator_TableVarName="tableABC" msprop:Generator_TablePropName="ABC" msprop:Generator_RowDeletingName="ABCRowDeleting" msprop:Generator_RowChangingName="ABCRowChanging" msprop:Generator_RowEvHandlerName="ABCRowChangeEventHandler" msprop:Generator_RowDeletedName="ABCRowDeleted" msprop:Generator_UserTableName="ABC" msprop:Generator_RowChangedName="ABCRowChanged" msprop:Generator_RowEvArgName="ABCRowChangeEvent" msprop:Generator_RowClassName="ABCRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MAGV" msprop:Generator_ColumnVarNameInTable="columnMAGV" msprop:Generator_ColumnPropNameInRow="MAGV" msprop:Generator_ColumnPropNameInTable="MAGVColumn" msprop:Generator_UserColumnName="MAGV">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HOTEN" msprop:Generator_ColumnVarNameInTable="columnHOTEN" msprop:Generator_ColumnPropNameInRow="HOTEN" msprop:Generator_ColumnPropNameInTable="HOTENColumn" msprop:Generator_UserColumnName="HOTEN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MAMH" msprop:Generator_ColumnVarNameInTable="columnMAMH" msprop:Generator_ColumnPropNameInRow="MAMH" msprop:Generator_ColumnPropNameInTable="MAMHColumn" msprop:Generator_UserColumnName="MAMH">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TENMH" msprop:Generator_ColumnVarNameInTable="columnTENMH" msprop:Generator_ColumnPropNameInRow="TENMH" msprop:Generator_ColumnPropNameInTable="TENMHColumn" msprop:Generator_UserColumnName="TENMH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SOTIET" msprop:Generator_ColumnVarNameInTable="columnSOTIET" msprop:Generator_ColumnPropNameInRow="SOTIET" msprop:Generator_ColumnPropNameInTable="SOTIETColumn" msprop:Generator_UserColumnName="SOTIET" type="xs:int" minOccurs="0" />
+              <xs:element name="SOTIETDADAY" msprop:Generator_ColumnVarNameInTable="columnSOTIETDADAY" msprop:Generator_ColumnPropNameInRow="SOTIETDADAY" msprop:Generator_ColumnPropNameInTable="SOTIETDADAYColumn" msprop:Generator_UserColumnName="SOTIETDADAY" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

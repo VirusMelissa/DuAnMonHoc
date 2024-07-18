@@ -1,0 +1,59 @@
+{% extends 'base_order.html' %} 
+{% load static %} 
+{% block content %} 
+{% load humanize %}
+<script>
+  window.shop = {
+    template: "collection",
+    moneyFormat: "{{amount}} đ",
+    shopCurrency: "VND",
+    CollectionSortBy: "manual",
+    terms: "",
+  };
+</script>
+<main>
+  <section class="tch-box tch-box--checkout tch-box--checkout-custom">
+    <div class="container-lg container-fluid custom-checkout">
+      <div data-v-0259c1b8="" class="row justify-content-center">
+        Thành công
+      </div>
+    </div>
+  </section>
+</main>
+
+{% endblock %} {% block javascript %}
+<script>
+  $(document).ready(function () {
+    $(".orderCart").on("click", function (e) {
+      e.preventDefault();
+      if ($("#name").val() == "") {
+        return alert("Vui lòng nhâp tên người nhận");
+      }
+      if ($("#phone").val() == "") {
+        return alert("Vui lòng nhâp số điện thoại");
+      }
+      const payment = $('input[name="payment-method"]:checked').val();
+      console.log(payment, 'payment')
+      $.ajax({
+        url: "cms/order-cart", // Replace with your actual URL
+        method: "POST",
+        data: {
+          name: $("#name").val(),
+          phone_number: $("#phone").val(),
+          note: $("#note").val(),
+          total: "{{ total }}",
+          paymentType: payment,
+          csrfmiddlewaretoken: "{{ csrf_token }}",
+        },
+        success: function (response) {
+          alert(response.message);
+          location.href = "/";
+        },
+        error: function (response) {
+          alert("Failed to delete user");
+        },
+      });
+    });
+  });
+</script>
+{% endblock %}

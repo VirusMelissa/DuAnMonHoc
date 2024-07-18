@@ -1,0 +1,228 @@
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\thi_QLBH_1004.exe.config
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\thi_QLBH_1004.exe
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\thi_QLBH_1004.pdb
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.chitietbanhang.resources
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.dangnhap.resources
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.danhmucsp.resources
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.inhoadon.resources
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.Properties.Resources.resources
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.timkiem.resources
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.csproj.GenerateResource.cache
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.csproj.CoreCompileInputs.cache
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.exe
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.pdb
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.Menu.resources
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\RdlCompile.cache
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\RdlCompile.compiled
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Report1.rdlc
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\EnvDTE.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\stdole.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.MSXML.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.csproj.CopyComplete
+D:\Phuc\LT CSDL NC\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Report1.rdlc
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\thi_QLBH_1004.exe.config
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\thi_QLBH_1004.exe
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\thi_QLBH_1004.pdb
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\EnvDTE.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\stdole.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.chitietbanhang.resources
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.dangnhap.resources
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.danhmucsp.resources
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.Menu.resources
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.inhoadon.resources
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.Properties.Resources.resources
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.timkiem.resources
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.csproj.CopyComplete
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.exe
+C:\Users\Admin\Downloads\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.pdb
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\thi_QLBH_1004.exe.config
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\thi_QLBH_1004.exe
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\thi_QLBH_1004.pdb
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\EnvDTE.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\stdole.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.MSXML.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.csproj.AssemblyReference.cache
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.chitietbanhang.resources
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.dangnhap.resources
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.danhmucsp.resources
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.Menu.resources
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.inhoadon.resources
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.Properties.Resources.resources
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.timkiem.resources
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.csproj.GenerateResource.cache
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.csproj.CoreCompileInputs.cache
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.csproj.CopyComplete
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.exe
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\obj\Debug\thi_QLBH_1004.pdb
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.WebDesign.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\Thi\thi_QLBH_1004\thi_QLBH_1004\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll

@@ -1,0 +1,10 @@
+D:\LTTQ\Switch\Switch\bin\Debug\Switch.exe.config
+D:\LTTQ\Switch\Switch\bin\Debug\Switch.exe
+D:\LTTQ\Switch\Switch\bin\Debug\Switch.pdb
+D:\LTTQ\Switch\Switch\obj\Debug\Switch.csproj.AssemblyReference.cache
+D:\LTTQ\Switch\Switch\obj\Debug\Switch.Form1.resources
+D:\LTTQ\Switch\Switch\obj\Debug\Switch.Properties.Resources.resources
+D:\LTTQ\Switch\Switch\obj\Debug\Switch.csproj.GenerateResource.cache
+D:\LTTQ\Switch\Switch\obj\Debug\Switch.csproj.CoreCompileInputs.cache
+D:\LTTQ\Switch\Switch\obj\Debug\Switch.exe
+D:\LTTQ\Switch\Switch\obj\Debug\Switch.pdb

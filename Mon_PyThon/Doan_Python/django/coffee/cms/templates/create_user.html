@@ -1,0 +1,213 @@
+{% extends 'base_cms.html' %} 
+{% load static %} 
+{% block header %} 
+  {% include 'header_cms.html' %} 
+  {% include 'menu_cms.html' %} 
+{% endblock %} 
+{% block content %}
+<div class="app-content content">
+  <div class="content-overlay"></div>
+  <div class="content-wrapper">
+    <div class="content-body">
+      <section id="hidden-label-form-layouts">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title" id="hidden-label-basic-form">
+                  Create user
+                </h4>
+                <a class="heading-elements-toggle"
+                  ><i class="la la-ellipsis-v font-medium-3"></i
+                ></a>
+                <div class="heading-elements">
+                  <ul class="list-inline mb-0">
+                    <li>
+                      <a data-action="collapse"><i class="ft-minus"></i></a>
+                    </li>
+                    <li>
+                      <a data-action="reload"><i class="ft-rotate-cw"></i></a>
+                    </li>
+                    <li>
+                      <a data-action="expand"><i class="ft-maximize"></i></a>
+                    </li>
+                    <li>
+                      <a data-action="close"><i class="ft-x"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-content collpase show">
+                <div class="card-body">
+                  <form method="POST" action="" class="form" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="form-body">
+                      <h4 class="form-section">
+                        <i class="ft-user"></i> Personal Info
+                      </h4>
+                      <div class="row">
+                        <div class="form-group col-6 mb-2">
+                          <label class="sr-only">Select File</label>
+                          <label id="projectinput8" class="file center-block">
+                            <input type="file" id="file" name="avatar" />
+                            <span class="file-custom"></span>
+                          </label>
+                        </div>
+                        
+                      </div>
+                      <div class="row">
+                        <div class="form-group col-md-6 mb-2">
+                          <label class="sr-only" for="projectinput1"
+                            >First Name</label
+                          >
+                          <input
+                            type="text"
+                            id="projectinput1"
+                            class="form-control"
+                            placeholder="First Name"
+                            name="firstname"
+                          />
+                        </div>
+                        <div class="form-group col-md-6 mb-2">
+                          <label class="sr-only" for="projectinput2"
+                            >Last Name</label
+                          >
+                          <input
+                            type="text"
+                            id="projectinput2"
+                            class="form-control"
+                            placeholder="Last Name"
+                            name="lastname"
+                          />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="form-group col-md-6 mb-2">
+                          <label class="sr-only" for="projectinput3"
+                            >E-mail</label
+                          >
+                          <input
+                            type="text"
+                            id="projectinput3"
+                            class="form-control"
+                            placeholder="E-mail"
+                            name="email"
+                          />
+                        </div>
+                        <div class="form-group col-md-6 mb-2">
+                          <label class="sr-only" for="projectinput4"
+                            >Contact Number</label
+                          >
+                          <input
+                            type="text"
+                            id="projectinput4"
+                            class="form-control"
+                            placeholder="Username"
+                            name="username"
+                          />
+                        </div>
+                      </div>
+
+                      <h4 class="form-section">
+                        <i class="ft-clipboard"></i> Birthday
+                      </h4>
+
+                      <div class="row">
+                        <div class="form-group col-6 mb-2">
+                          <label class="sr-only">Birthday</label>
+                          <input
+                              type="date"
+                              id="issueinput3"
+                              class="form-control"
+                              name="birthday"
+                              data-toggle="tooltip"
+                              data-trigger="hover"
+                              data-placement="top"
+                              data-title="Date Opened"
+                            />
+                        </div>
+                      </div>
+                      <h4 class="form-section">
+                        <i class="ft-clipboard"></i> Requirements
+                      </h4>
+                      
+                      <div class="row">
+                        <div class="form-group col-6 mb-2">
+                          <label class="sr-only" for="projectinput5"
+                            >Password</label
+                          >
+                          <input
+                            type="password"
+                            id="projectinput5"
+                            class="form-control"
+                            placeholder="Password"
+                            name="password1"
+                          />
+                        </div>
+                        <div class="form-group col-6 mb-2">
+                          <label class="sr-only" for="projectinput5"
+                            >Confirm Password</label
+                          >
+                          <input
+                            type="password"
+                            id="projectinput5"
+                            class="form-control"
+                            placeholder="Confirm Password"
+                            name="password2"
+                          />
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="form-group col-md-6 mb-2">
+                          <label class="sr-only" for="projectinput6"
+                            >role</label
+                          >
+                          <select
+                            id="projectinput6"
+                            name="role"
+                            class="form-control"
+                          >
+                            <option value="none" selected="" disabled="">
+                              Role
+                            </option>
+                            <option value="admin">ADMIN</option>
+                            <option value="development">EMPLOYEE</option>
+                            <option value="illustration">USER</option>
+                          </select>
+                        </div>
+                        <!-- <div class="form-group col-md-6 mb-2">
+                          <fieldset class="checkbox">
+                            <label>
+                              <input
+                                type="checkbox"
+                                name="is_staff"
+                                value="1"
+                              />
+                              Staff
+                            </label>
+                          </fieldset>
+                        </div> -->
+                      </div>
+                    </div>
+
+                    <div class="form-actions">
+                      <a href="/cms" type="button" class="btn btn-warning mr-1">
+                        <i class="ft-x"></i> Cancel
+                      </a>
+                      <button type="submit" class="btn btn-primary">
+                        <i class="la la-check-square-o"></i> Save
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- // Hidden label form layout section end -->
+    </div>
+  </div>
+</div>
+{% endblock %}

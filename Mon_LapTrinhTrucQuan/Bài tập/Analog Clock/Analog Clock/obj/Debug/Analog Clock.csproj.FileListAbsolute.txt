@@ -1,0 +1,30 @@
+C:\Users\Azeem  Akram\source\repos\Analog Clock\Analog Clock\bin\Debug\Analog Clock.exe.config
+C:\Users\Azeem  Akram\source\repos\Analog Clock\Analog Clock\bin\Debug\Analog Clock.exe
+C:\Users\Azeem  Akram\source\repos\Analog Clock\Analog Clock\bin\Debug\Analog Clock.pdb
+C:\Users\Azeem  Akram\source\repos\Analog Clock\Analog Clock\obj\Debug\Analog Clock.csprojAssemblyReference.cache
+C:\Users\Azeem  Akram\source\repos\Analog Clock\Analog Clock\obj\Debug\Analog_Clock.Form1.resources
+C:\Users\Azeem  Akram\source\repos\Analog Clock\Analog Clock\obj\Debug\Analog_Clock.Properties.Resources.resources
+C:\Users\Azeem  Akram\source\repos\Analog Clock\Analog Clock\obj\Debug\Analog Clock.csproj.GenerateResource.cache
+C:\Users\Azeem  Akram\source\repos\Analog Clock\Analog Clock\obj\Debug\Analog Clock.csproj.CoreCompileInputs.cache
+C:\Users\Azeem  Akram\source\repos\Analog Clock\Analog Clock\obj\Debug\Analog Clock.exe
+C:\Users\Azeem  Akram\source\repos\Analog Clock\Analog Clock\obj\Debug\Analog Clock.pdb
+C:\Users\Admin\Downloads\Analog Clock\Analog Clock\bin\Debug\Analog Clock.exe.config
+C:\Users\Admin\Downloads\Analog Clock\Analog Clock\bin\Debug\Analog Clock.exe
+C:\Users\Admin\Downloads\Analog Clock\Analog Clock\bin\Debug\Analog Clock.pdb
+C:\Users\Admin\Downloads\Analog Clock\Analog Clock\obj\Debug\Analog Clock.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Analog Clock\Analog Clock\obj\Debug\Analog_Clock.Properties.Resources.resources
+C:\Users\Admin\Downloads\Analog Clock\Analog Clock\obj\Debug\Analog Clock.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\Analog Clock\Analog Clock\obj\Debug\Analog Clock.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Analog Clock\Analog Clock\obj\Debug\Analog Clock.exe
+C:\Users\Admin\Downloads\Analog Clock\Analog Clock\obj\Debug\Analog Clock.pdb
+C:\Users\Admin\Downloads\Analog Clock\Analog Clock\obj\Debug\Analog_Clock.dongho.resources
+D:\LTTQ\Analog Clock\Analog Clock\bin\Debug\Analog Clock.exe.config
+D:\LTTQ\Analog Clock\Analog Clock\bin\Debug\Analog Clock.exe
+D:\LTTQ\Analog Clock\Analog Clock\bin\Debug\Analog Clock.pdb
+D:\LTTQ\Analog Clock\Analog Clock\obj\Debug\Analog Clock.csproj.AssemblyReference.cache
+D:\LTTQ\Analog Clock\Analog Clock\obj\Debug\Analog_Clock.dongho.resources
+D:\LTTQ\Analog Clock\Analog Clock\obj\Debug\Analog_Clock.Properties.Resources.resources
+D:\LTTQ\Analog Clock\Analog Clock\obj\Debug\Analog Clock.csproj.GenerateResource.cache
+D:\LTTQ\Analog Clock\Analog Clock\obj\Debug\Analog Clock.csproj.CoreCompileInputs.cache
+D:\LTTQ\Analog Clock\Analog Clock\obj\Debug\Analog Clock.exe
+D:\LTTQ\Analog Clock\Analog Clock\obj\Debug\Analog Clock.pdb

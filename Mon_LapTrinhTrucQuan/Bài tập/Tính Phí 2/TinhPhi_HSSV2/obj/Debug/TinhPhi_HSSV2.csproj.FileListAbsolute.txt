@@ -1,0 +1,20 @@
+D:\LTTQ\TinhPhi_HSSV2\TinhPhi_HSSV2\bin\Debug\TinhPhi_HSSV2.exe.config
+D:\LTTQ\TinhPhi_HSSV2\TinhPhi_HSSV2\bin\Debug\TinhPhi_HSSV2.exe
+D:\LTTQ\TinhPhi_HSSV2\TinhPhi_HSSV2\bin\Debug\TinhPhi_HSSV2.pdb
+D:\LTTQ\TinhPhi_HSSV2\TinhPhi_HSSV2\obj\Debug\TinhPhi_HSSV2.csproj.AssemblyReference.cache
+D:\LTTQ\TinhPhi_HSSV2\TinhPhi_HSSV2\obj\Debug\TinhPhi_HSSV2.Form1.resources
+D:\LTTQ\TinhPhi_HSSV2\TinhPhi_HSSV2\obj\Debug\TinhPhi_HSSV2.Properties.Resources.resources
+D:\LTTQ\TinhPhi_HSSV2\TinhPhi_HSSV2\obj\Debug\TinhPhi_HSSV2.csproj.GenerateResource.cache
+D:\LTTQ\TinhPhi_HSSV2\TinhPhi_HSSV2\obj\Debug\TinhPhi_HSSV2.csproj.CoreCompileInputs.cache
+D:\LTTQ\TinhPhi_HSSV2\TinhPhi_HSSV2\obj\Debug\TinhPhi_HSSV2.exe
+D:\LTTQ\TinhPhi_HSSV2\TinhPhi_HSSV2\obj\Debug\TinhPhi_HSSV2.pdb
+D:\LTTQ\Tính Phí 2\TinhPhi_HSSV2\bin\Debug\TinhPhi_HSSV2.exe.config
+D:\LTTQ\Tính Phí 2\TinhPhi_HSSV2\bin\Debug\TinhPhi_HSSV2.exe
+D:\LTTQ\Tính Phí 2\TinhPhi_HSSV2\bin\Debug\TinhPhi_HSSV2.pdb
+D:\LTTQ\Tính Phí 2\TinhPhi_HSSV2\obj\Debug\TinhPhi_HSSV2.csproj.AssemblyReference.cache
+D:\LTTQ\Tính Phí 2\TinhPhi_HSSV2\obj\Debug\TinhPhi_HSSV2.Form1.resources
+D:\LTTQ\Tính Phí 2\TinhPhi_HSSV2\obj\Debug\TinhPhi_HSSV2.Properties.Resources.resources
+D:\LTTQ\Tính Phí 2\TinhPhi_HSSV2\obj\Debug\TinhPhi_HSSV2.csproj.GenerateResource.cache
+D:\LTTQ\Tính Phí 2\TinhPhi_HSSV2\obj\Debug\TinhPhi_HSSV2.csproj.CoreCompileInputs.cache
+D:\LTTQ\Tính Phí 2\TinhPhi_HSSV2\obj\Debug\TinhPhi_HSSV2.exe
+D:\LTTQ\Tính Phí 2\TinhPhi_HSSV2\obj\Debug\TinhPhi_HSSV2.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thi_QLBH_1004", "thi_QLBH_1004\thi_QLBH_1004.csproj", "{99FB17AE-E33C-4A69-9C12-1168C74AC894}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99FB17AE-E33C-4A69-9C12-1168C74AC894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FB17AE-E33C-4A69-9C12-1168C74AC894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FB17AE-E33C-4A69-9C12-1168C74AC894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FB17AE-E33C-4A69-9C12-1168C74AC894}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00F6C810-1C44-4121-B081-2CBFB53FA332}
+	EndGlobalSection
+EndGlobal

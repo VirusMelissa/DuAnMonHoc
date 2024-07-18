@@ -1,0 +1,11 @@
+D:\Phuc\LT CSDL NC\DangNhap\DangNhap\bin\Debug\DangNhap.exe.config
+D:\Phuc\LT CSDL NC\DangNhap\DangNhap\bin\Debug\DangNhap.exe
+D:\Phuc\LT CSDL NC\DangNhap\DangNhap\bin\Debug\DangNhap.pdb
+D:\Phuc\LT CSDL NC\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.AssemblyReference.cache
+D:\Phuc\LT CSDL NC\DangNhap\DangNhap\obj\Debug\DangNhap.DanhSach.resources
+D:\Phuc\LT CSDL NC\DangNhap\DangNhap\obj\Debug\DangNhap.dangnhap.resources
+D:\Phuc\LT CSDL NC\DangNhap\DangNhap\obj\Debug\DangNhap.Properties.Resources.resources
+D:\Phuc\LT CSDL NC\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.GenerateResource.cache
+D:\Phuc\LT CSDL NC\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.CoreCompileInputs.cache
+D:\Phuc\LT CSDL NC\DangNhap\DangNhap\obj\Debug\DangNhap.exe
+D:\Phuc\LT CSDL NC\DangNhap\DangNhap\obj\Debug\DangNhap.pdb

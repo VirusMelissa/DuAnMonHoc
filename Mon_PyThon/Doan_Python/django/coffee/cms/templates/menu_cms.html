@@ -1,0 +1,105 @@
+{% load static %}
+<!-- BEGIN: Main Menu-->
+<div
+  class="main-menu material-menu menu-fixed menu-dark menu-accordion menu-shadow"
+  data-scroll-to-active="true"
+>
+  <div class="user-profile">
+    <div class="user-info text-center pb-2">
+      <img
+        class="user-img img-fluid rounded-circle w-25 mt-2"
+        src="{% static 'app-assets/images/portrait/small/avatar-s-1.png'%}"
+        alt=""
+      />
+      <div class="name-wrapper d-block dropdown mt-1">
+        <a
+          class="white dropdown-toggle ml-2"
+          id="user-account"
+          href="#"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          ><span class="user-name"> 
+            {% if user.is_authenticated %}
+                Welcome, {{ user.username }}!
+            {% else %}
+                Please log in.
+            {% endif %}</span>
+          </a>
+        <div class="text-light">{{user.role}}</div>
+        <div class="dropdown-menu arrow">
+          <a class="dropdown-item"
+            ><i class="material-icons align-middle mr-1">person</i
+            ><span class="align-middle">Profile</span>
+          </a>
+          <a class="dropdown-item"
+            ><i class="material-icons align-middle mr-1">settings</i
+            ><span class="align-middle">Settings</span>
+          </a>
+          <a class="dropdown-item" href="{% url 'logout' %}"
+            ><i class="material-icons align-middle mr-1">power_settings_new</i
+            ><span class="align-middle">Log Out</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-menu-content">
+    <ul
+      class="navigation navigation-main"
+      id="main-menu-navigation"
+      data-menu="menu-navigation"
+    >
+      <li class="navigation-header">
+        <span data-i18n="Ecommerce">Manage shop</span
+        ><i
+          class="material-icons nav-menu-icon"
+          data-toggle="tooltip"
+          data-placement="right"
+          data-original-title="Ecommerce"
+          >more_horiz</i
+        >
+      </li>
+      <li class="nav-item">
+        <a href="{% url 'listuser' %}"
+          ><i class="material-icons">add_shopping_cart</i
+          ><span class="menu-title" data-i18n="Shop">User</span></a
+        >
+      </li>
+      <li class="nav-item">
+        <a href="{% url 'listcategory' %}"
+          ><i class="material-icons">format_list_numbered</i
+          ><span class="menu-title" data-i18n="Product Detail"
+            >Category</span
+          ></a
+        >
+      </li>
+      <li class="nav-item">
+        <a href="{% url 'listproduct' %}"
+          ><i class="material-icons">card_travel</i
+          ><span class="menu-title" data-i18n="Shopping Cart"
+            >Product</span
+          ></a
+        >
+      </li>
+     
+      <li class="nav-item">
+        <a href="{% url 'listorder' %}"
+          ><i class="material-icons">done</i
+          ><span class="menu-title" data-i18n="Order">Order</span></a
+        >
+      </li>
+      <li class="nav-item">
+        <a href="{% url 'listinvoice' %}"
+          ><i class="material-icons">content_paste</i
+          ><span class="menu-title" data-i18n="Invoice">Invoice</span></a
+        >
+        
+      </li>
+        
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- END: Main Menu-->

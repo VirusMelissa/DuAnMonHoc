@@ -1,0 +1,10 @@
+D:\LTTQ\For\For\bin\Debug\For.exe.config
+D:\LTTQ\For\For\bin\Debug\For.exe
+D:\LTTQ\For\For\bin\Debug\For.pdb
+D:\LTTQ\For\For\obj\Debug\For.csproj.AssemblyReference.cache
+D:\LTTQ\For\For\obj\Debug\For.Form1.resources
+D:\LTTQ\For\For\obj\Debug\For.Properties.Resources.resources
+D:\LTTQ\For\For\obj\Debug\For.csproj.GenerateResource.cache
+D:\LTTQ\For\For\obj\Debug\For.csproj.CoreCompileInputs.cache
+D:\LTTQ\For\For\obj\Debug\For.exe
+D:\LTTQ\For\For\obj\Debug\For.pdb

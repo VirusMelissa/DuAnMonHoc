@@ -1,0 +1,1 @@
+Biểu diễn dữ liệu không gian 3D của Chợ Bến Thành trên bản đồ 3D Arcgis JS.

@@ -1,0 +1,40 @@
+D:\LTTQ\thi\thi\bin\Debug\thi.exe.config
+D:\LTTQ\thi\thi\bin\Debug\thi.exe
+D:\LTTQ\thi\thi\bin\Debug\thi.pdb
+D:\LTTQ\thi\thi\obj\Debug\thi.csproj.AssemblyReference.cache
+D:\LTTQ\thi\thi\obj\Debug\thi.DichVuTiemChung.resources
+D:\LTTQ\thi\thi\obj\Debug\thi.Properties.Resources.resources
+D:\LTTQ\thi\thi\obj\Debug\thi.csproj.GenerateResource.cache
+D:\LTTQ\thi\thi\obj\Debug\thi.csproj.CoreCompileInputs.cache
+D:\LTTQ\thi\thi\obj\Debug\thi.exe
+D:\LTTQ\thi\thi\obj\Debug\thi.pdb
+C:\Users\Admin\Downloads\thi1\thi\bin\Debug\thi.exe.config
+C:\Users\Admin\Downloads\thi1\thi\bin\Debug\thi.exe
+C:\Users\Admin\Downloads\thi1\thi\bin\Debug\thi.pdb
+C:\Users\Admin\Downloads\thi1\thi\obj\Debug\thi.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\thi1\thi\obj\Debug\thi.DichVuTiemChung.resources
+C:\Users\Admin\Downloads\thi1\thi\obj\Debug\thi.Properties.Resources.resources
+C:\Users\Admin\Downloads\thi1\thi\obj\Debug\thi.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\thi1\thi\obj\Debug\thi.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\thi1\thi\obj\Debug\thi.exe
+C:\Users\Admin\Downloads\thi1\thi\obj\Debug\thi.pdb
+D:\Phuc\thi1\thi\bin\Debug\thi.exe.config
+D:\Phuc\thi1\thi\bin\Debug\thi.exe
+D:\Phuc\thi1\thi\bin\Debug\thi.pdb
+D:\Phuc\thi1\thi\obj\Debug\thi.csproj.AssemblyReference.cache
+D:\Phuc\thi1\thi\obj\Debug\thi.DichVuTiemChung.resources
+D:\Phuc\thi1\thi\obj\Debug\thi.Properties.Resources.resources
+D:\Phuc\thi1\thi\obj\Debug\thi.csproj.GenerateResource.cache
+D:\Phuc\thi1\thi\obj\Debug\thi.csproj.CoreCompileInputs.cache
+D:\Phuc\thi1\thi\obj\Debug\thi.exe
+D:\Phuc\thi1\thi\obj\Debug\thi.pdb
+D:\Tai Lieu\CNTT\LT trực quan\Thi\thi1\thi\bin\Debug\thi.exe.config
+D:\Tai Lieu\CNTT\LT trực quan\Thi\thi1\thi\bin\Debug\thi.exe
+D:\Tai Lieu\CNTT\LT trực quan\Thi\thi1\thi\bin\Debug\thi.pdb
+D:\Tai Lieu\CNTT\LT trực quan\Thi\thi1\thi\obj\Debug\thi.csproj.AssemblyReference.cache
+D:\Tai Lieu\CNTT\LT trực quan\Thi\thi1\thi\obj\Debug\thi.DichVuTiemChung.resources
+D:\Tai Lieu\CNTT\LT trực quan\Thi\thi1\thi\obj\Debug\thi.Properties.Resources.resources
+D:\Tai Lieu\CNTT\LT trực quan\Thi\thi1\thi\obj\Debug\thi.csproj.GenerateResource.cache
+D:\Tai Lieu\CNTT\LT trực quan\Thi\thi1\thi\obj\Debug\thi.csproj.CoreCompileInputs.cache
+D:\Tai Lieu\CNTT\LT trực quan\Thi\thi1\thi\obj\Debug\thi.exe
+D:\Tai Lieu\CNTT\LT trực quan\Thi\thi1\thi\obj\Debug\thi.pdb

@@ -1,0 +1,164 @@
+<!-- templates/timNV.html -->
+{% load humanize %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Nhân Viên</title>
+    <style>
+        /* Add your CSS styling here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            border: 2px double #dddddd;
+            padding: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 35px;
+            font-weight: bold;
+            color: red;
+        }
+
+        .input-form {
+            margin-bottom: 20px;
+        }
+
+        .label-spacing {
+            margin-left: 20px;
+        }
+
+        .input-form label {
+            display: inline-block;
+            width: 120px;
+        }
+
+        .input-form input[type="text"],
+        .input-form input[type="number"],
+        .input-form select {
+            width: 200px;
+            padding: 5px;
+        }
+
+        .input-form button {
+            padding: 8px 8px;
+            font-size: 15px;
+            font-weight: bold;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .input-form button a {
+            color: white;
+            padding: 8px 8px;
+            font-size: 15px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .input-form button:hover {
+            background-color: #45a049;
+        }
+
+        .input-form button.blue {
+        background-color: #008CBA;
+        }
+
+        .input-form button.blue:hover {
+            background-color: #005582;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 2px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .employee-actions a {
+            margin-right: 5px;
+            color: #0645AD;
+            text-decoration: none;
+        }
+
+        .employee-actions a:hover {
+            text-decoration: underline;
+        }
+
+        .message {
+            color: red;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Danh Sách Nhân Viên</h2>
+
+        <div class="input-form">
+            <form method="POST" action="{% url 'Timkiem_nhanvien' %}">
+                {% csrf_token %}
+                <label for="MaNV">Mã Nhân Viên:</label>
+                <input type="text" name="MaNV" id="MaNV" required>
+                <br><br>
+
+                <button type="submit">Tìm Nhân Viên theo mã</button>
+                <button type="submit"> <a href="{% url 'LuongHT_max' %}">Nhân Viên có lương cao nhất</a>  </button>
+                <button type="submit"> <a href="{% url 'LuongHT_kinhdoanh_max' %}" > Nhân Viên Kinh Doanh có lương cao nhất </a>  </button>
+                <button type="submit" class="blue"> <a href="{% url 'Timkiem_nhanvien' %}" > Load lại Trang </a>  </button>
+                <button type="submit" class="blue"> <a href="{% url 'List_nhanvien' %}" > Quay lại Trang </a>  </button>
+            </form>
+        </div>
+
+        {% if dsNhanVien %}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mã Nhân Viên</th>
+                        <th>Tên Nhân Viên</th>
+                        <th>Lương Cơ Bản</th>
+                        <th>Lương Hằng Tháng</th>
+                        <th>Loại Nhân Viên</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for nhanvien in dsNhanVien %}
+                        <tr>
+                            <td>{{ nhanvien.MaNV }}</td>
+                            <td>{{ nhanvien.Hoten }}</td>
+                            <td>{{ nhanvien.Luongcoban|intcomma }} VNĐ</td>
+                            <td>{{ nhanvien.Luonghangthang|intcomma }} VNĐ</td>
+                            <td>{{ nhanvien.LoaiNV_id.Name }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% endif %}
+
+        {% if searched_ma_nv and not dsNhanVien %}
+            <p class="message">Không tìm thấy nhân viên có Mã Nhân Viên là {{ searched_ma_nv }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>

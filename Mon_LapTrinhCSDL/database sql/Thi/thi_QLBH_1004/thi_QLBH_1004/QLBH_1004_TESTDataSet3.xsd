@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QLBH_1004_TESTDataSet3" targetNamespace="http://tempuri.org/QLBH_1004_TESTDataSet3.xsd" xmlns:mstns="http://tempuri.org/QLBH_1004_TESTDataSet3.xsd" xmlns="http://tempuri.org/QLBH_1004_TESTDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QLBH_1004_TESTConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLBH_1004_TESTConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.thi_QLBH_1004.Properties.Settings.GlobalReference.Default.QLBH_1004_TESTConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ABCTableAdapter" GeneratorDataComponentClassName="ABCTableAdapter" Name="ABC" UserDataComponentName="ABCTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLBH_1004_TESTConnectionString1 (Settings)" DbObjectName="QLBH_1004_TEST.dbo.ABC" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT SOHD, MAKH, MASP, GIA, SL, THANHTIEN FROM dbo.ABC</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SOHD" DataSetColumn="SOHD" />
+              <Mapping SourceColumn="MAKH" DataSetColumn="MAKH" />
+              <Mapping SourceColumn="MASP" DataSetColumn="MASP" />
+              <Mapping SourceColumn="GIA" DataSetColumn="GIA" />
+              <Mapping SourceColumn="SL" DataSetColumn="SL" />
+              <Mapping SourceColumn="THANHTIEN" DataSetColumn="THANHTIEN" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QLBH_1004_TESTDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="QLBH_1004_TESTDataSet3" msprop:Generator_UserDSName="QLBH_1004_TESTDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ABC" msprop:Generator_TableClassName="ABCDataTable" msprop:Generator_TableVarName="tableABC" msprop:Generator_TablePropName="ABC" msprop:Generator_RowDeletingName="ABCRowDeleting" msprop:Generator_RowChangingName="ABCRowChanging" msprop:Generator_RowEvHandlerName="ABCRowChangeEventHandler" msprop:Generator_RowDeletedName="ABCRowDeleted" msprop:Generator_UserTableName="ABC" msprop:Generator_RowChangedName="ABCRowChanged" msprop:Generator_RowEvArgName="ABCRowChangeEvent" msprop:Generator_RowClassName="ABCRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SOHD" msprop:Generator_ColumnVarNameInTable="columnSOHD" msprop:Generator_ColumnPropNameInRow="SOHD" msprop:Generator_ColumnPropNameInTable="SOHDColumn" msprop:Generator_UserColumnName="SOHD" type="xs:int" />
+              <xs:element name="MAKH" msprop:Generator_ColumnVarNameInTable="columnMAKH" msprop:Generator_ColumnPropNameInRow="MAKH" msprop:Generator_ColumnPropNameInTable="MAKHColumn" msprop:Generator_UserColumnName="MAKH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MASP" msprop:Generator_ColumnVarNameInTable="columnMASP" msprop:Generator_ColumnPropNameInRow="MASP" msprop:Generator_ColumnPropNameInTable="MASPColumn" msprop:Generator_UserColumnName="MASP">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GIA" msprop:Generator_ColumnVarNameInTable="columnGIA" msprop:Generator_ColumnPropNameInRow="GIA" msprop:Generator_ColumnPropNameInTable="GIAColumn" msprop:Generator_UserColumnName="GIA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SL" msprop:Generator_ColumnVarNameInTable="columnSL" msprop:Generator_ColumnPropNameInRow="SL" msprop:Generator_ColumnPropNameInTable="SLColumn" msprop:Generator_UserColumnName="SL" type="xs:int" minOccurs="0" />
+              <xs:element name="THANHTIEN" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTHANHTIEN" msprop:Generator_ColumnPropNameInRow="THANHTIEN" msprop:Generator_ColumnPropNameInTable="THANHTIENColumn" msprop:Generator_UserColumnName="THANHTIEN" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

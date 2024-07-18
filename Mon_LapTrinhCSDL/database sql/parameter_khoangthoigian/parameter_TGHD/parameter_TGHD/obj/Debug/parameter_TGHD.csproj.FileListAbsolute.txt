@@ -1,0 +1,20 @@
+D:\Phuc\LT CSDL NC\parameter_TGHD\parameter_TGHD\bin\Debug\parameter_TGHD.exe.config
+D:\Phuc\LT CSDL NC\parameter_TGHD\parameter_TGHD\bin\Debug\parameter_TGHD.exe
+D:\Phuc\LT CSDL NC\parameter_TGHD\parameter_TGHD\bin\Debug\parameter_TGHD.pdb
+D:\Phuc\LT CSDL NC\parameter_TGHD\parameter_TGHD\obj\Debug\parameter_TGHD.csproj.AssemblyReference.cache
+D:\Phuc\LT CSDL NC\parameter_TGHD\parameter_TGHD\obj\Debug\parameter_TGHD.Form1.resources
+D:\Phuc\LT CSDL NC\parameter_TGHD\parameter_TGHD\obj\Debug\parameter_TGHD.Properties.Resources.resources
+D:\Phuc\LT CSDL NC\parameter_TGHD\parameter_TGHD\obj\Debug\parameter_TGHD.csproj.GenerateResource.cache
+D:\Phuc\LT CSDL NC\parameter_TGHD\parameter_TGHD\obj\Debug\parameter_TGHD.csproj.CoreCompileInputs.cache
+D:\Phuc\LT CSDL NC\parameter_TGHD\parameter_TGHD\obj\Debug\parameter_TGHD.exe
+D:\Phuc\LT CSDL NC\parameter_TGHD\parameter_TGHD\obj\Debug\parameter_TGHD.pdb
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\parameter_khoangthoigian\parameter_TGHD\parameter_TGHD\bin\Debug\parameter_TGHD.exe.config
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\parameter_khoangthoigian\parameter_TGHD\parameter_TGHD\bin\Debug\parameter_TGHD.exe
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\parameter_khoangthoigian\parameter_TGHD\parameter_TGHD\bin\Debug\parameter_TGHD.pdb
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\parameter_khoangthoigian\parameter_TGHD\parameter_TGHD\obj\Debug\parameter_TGHD.csproj.AssemblyReference.cache
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\parameter_khoangthoigian\parameter_TGHD\parameter_TGHD\obj\Debug\parameter_TGHD.Form1.resources
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\parameter_khoangthoigian\parameter_TGHD\parameter_TGHD\obj\Debug\parameter_TGHD.Properties.Resources.resources
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\parameter_khoangthoigian\parameter_TGHD\parameter_TGHD\obj\Debug\parameter_TGHD.csproj.GenerateResource.cache
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\parameter_khoangthoigian\parameter_TGHD\parameter_TGHD\obj\Debug\parameter_TGHD.csproj.CoreCompileInputs.cache
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\parameter_khoangthoigian\parameter_TGHD\parameter_TGHD\obj\Debug\parameter_TGHD.exe
+D:\Tai Lieu\CNTT\Lập Trình CSDL Nâng Cao\database sql\parameter_khoangthoigian\parameter_TGHD\parameter_TGHD\obj\Debug\parameter_TGHD.pdb

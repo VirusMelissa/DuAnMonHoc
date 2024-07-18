@@ -1,0 +1,16 @@
+D:\LTTQ\ChuViDienTich\ChuViDienTich\bin\Debug\ChuViDienTich.exe.config
+D:\LTTQ\ChuViDienTich\ChuViDienTich\bin\Debug\ChuViDienTich.exe
+D:\LTTQ\ChuViDienTich\ChuViDienTich\bin\Debug\ChuViDienTich.pdb
+D:\LTTQ\ChuViDienTich\ChuViDienTich\obj\Debug\ChuViDienTich.csproj.AssemblyReference.cache
+D:\LTTQ\ChuViDienTich\ChuViDienTich\obj\Debug\ChuViDienTich.Form1.resources
+D:\LTTQ\ChuViDienTich\ChuViDienTich\obj\Debug\ChuViDienTich.Properties.Resources.resources
+D:\LTTQ\ChuViDienTich\ChuViDienTich\obj\Debug\ChuViDienTich.csproj.GenerateResource.cache
+D:\LTTQ\ChuViDienTich\ChuViDienTich\obj\Debug\ChuViDienTich.csproj.CoreCompileInputs.cache
+D:\LTTQ\ChuViDienTich\ChuViDienTich\obj\Debug\ChuViDienTich.exe
+D:\LTTQ\ChuViDienTich\ChuViDienTich\obj\Debug\ChuViDienTich.pdb
+D:\LTTQ\ChuViDienTich\ChuViDienTich\obj\Debug\ChuViDienTich.ChuViDienTich.resources
+D:\LTTQ\ChuViDienTich\ChuViDienTich\obj\Debug\ChuViDienTich.ChuHoavaThuong.resources
+D:\LTTQ\ChuViDienTich\ChuViDienTich\obj\Debug\ChuViDienTich.test.resources
+D:\LTTQ\ChuViDienTich\ChuViDienTich\obj\Debug\ChuViDienTich.Kiemtra1_ChuVi_DienTich.resources
+D:\LTTQ\ChuViDienTich\ChuViDienTich\obj\Debug\ChuViDienTich.Kiemtra2_Switch_case_default.resources
+D:\LTTQ\ChuViDienTich\ChuViDienTich\obj\Debug\ChuViDienTich.Listbox.resources

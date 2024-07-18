@@ -1,0 +1,17 @@
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\obj\Debug\ChuongTrinhDauTien.csproj.AssemblyReference.cache
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\obj\Debug\ChuongTrinhDauTien.FormLoiChao.resources
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\obj\Debug\ChuongTrinhDauTien.Properties.Resources.resources
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\obj\Debug\ChuongTrinhDauTien.csproj.GenerateResource.cache
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\obj\Debug\ChuongTrinhDauTien.csproj.CoreCompileInputs.cache
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\bin\Debug\ChuongTrinhDauTien.exe.config
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\bin\Debug\ChuongTrinhDauTien.exe
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\bin\Debug\ChuongTrinhDauTien.pdb
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\obj\Debug\ChuongTrinhDauTien.exe
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\obj\Debug\ChuongTrinhDauTien.pdb
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\obj\Debug\ChuongTrinhDauTien.ThongtinSV.resources
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\obj\Debug\ChuongTrinhDauTien.DangNhap.resources
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\obj\Debug\ChuongTrinhDauTien.thaydoidinhdang.resources
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\obj\Debug\ChuongTrinhDauTien.DemTextBox.resources
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\obj\Debug\ChuongTrinhDauTien.chuoi1.resources
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\obj\Debug\ChuongTrinhDauTien.Timer.resources
+D:\LTTQ\ChuongTrinhDauTien\ChuongTrinhDauTien\obj\Debug\ChuongTrinhDauTien.Timer1.resources

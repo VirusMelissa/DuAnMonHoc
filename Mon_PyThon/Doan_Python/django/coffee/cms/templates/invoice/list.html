@@ -1,0 +1,92 @@
+{% extends 'base_cms.html' %} 
+{% load static %}
+{% block header %} 
+  {% include 'header_cms.html' %} 
+  {% include 'menu_cms.html' %} 
+{% endblock %} 
+{% block content %}
+{% load humanize %}
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Total Receivables</h4>
+                <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                <div class="heading-elements">
+                    <ul class="list-inline mb-0">
+                        <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+                        <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+                        <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+                        <li><a data-action="close"><i class="ft-x"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-content collapse show">
+                {% csrf_token %}
+                
+                <div class="card-body">        
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Today</th>
+                                    <th>This Week</th>
+                                    <th>This month</th>
+                                    <th>This year</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>{{ today|floatformat:0|intcomma }} đ</td>
+                                    <td>{{ week|floatformat:0|intcomma }} đ</td>
+                                    <td>{{ month|floatformat:0|intcomma }} đ</td>
+                                    <td>{{ year|floatformat:0|intcomma }} đ</td>
+                                    
+                                   </tr>
+
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-content collapse show">
+                {% csrf_token %}
+                <div class="card-body">        
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Product Name</th>
+                                    <th>Quantity</th>
+                                    <th>Total Price</th>
+                                    <th>Percent</th>
+                                   
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for product_data in result %}
+                                <tr>
+                                    <td>{{ product_data.product__name }}</td>
+                                    <td>{{ product_data.total_quantity }}</td>
+                                    <td>{{ product_data.total_price|floatformat:0|intcomma }} đ</td>
+                                    <td>{{ product_data.percentage_sold|floatformat:0|intcomma }} %</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block javascript %}
+<script>
+  
+</script>
+{% endblock %}
